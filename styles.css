@@ -29,3 +29,9 @@ body, html {
   padding: 100px 20px;
   height: 100%;
 }
+
+img {
+
+  object-position: center;
+  
+}
