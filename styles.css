@@ -5,6 +5,10 @@ body, html {
   font-family: Arial;
 }
 
+#projects {
+  background-color: azure;
+}
+
 /* Style tab links */
 .tablink {
   background-color: #555;
@@ -30,11 +34,17 @@ body, html {
   height: 100%;
 }
 
+h1 {
+  color:aquamarine;
+  font-size: 100px;
+  background-color: azure;
+}
+
 .bg {
   background-image: url("https://marleyhankin.files.wordpress.com/2018/12/website-header2-1-1024x576.png?w=1024");
 
   height: 100%;
-  
+
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -6,13 +6,14 @@
     <link rel="stylesheet" type="text/css" href="styles.css" />
   </head>
   <body>
-    <button class="tablink" onclick="openPage('Home', this, 'red')" id="defaultOpen">
-      Home
-    </button>
     <button
       class="tablink"
-      onclick="openPage('Projects', this, 'green')"
+      onclick="openPage('Home', this, 'red')"
+      id="defaultOpen"
     >
+      Home
+    </button>
+    <button class="tablink" onclick="openPage('Projects', this, 'green')">
       Projects
     </button>
     <button class="tablink" onclick="openPage('Contact', this, 'blue')">
@@ -21,19 +22,16 @@
     <button class="tablink" onclick="openPage('About', this, 'orange')">
       About
     </button>
-    
-    
-    <div id="Home" class="tabcontent">
-      
-    </div>
+
+    <div id="Home" class="tabcontent"></div>
 
     <div id="Projects" class="tabcontent">
-      <a href="/clock/clock.html">Clock</a><br>
-      <a href="/cssjsvariables/cssjs.html"> Playing with Css variables and Js</a><br>
-      <a href="/array-cardio-day-1/array.html">Array Cardio Day 1</a><br>
-      <a href="/flex-panels/flex.html">Flex Panels Image Gallery</a><br>
-
-      
+      <h1>Below are some work I have done</h1>
+      <a href="/clock/clock.html">Clock</a><br />
+      <a href="/cssjsvariables/cssjs.html"> Playing with Css variables and Js</a
+      ><br />
+      <a href="/array-cardio-day-1/array.html">Array Cardio Day 1</a><br />
+      <a href="/flex-panels/flex.html">Flex Panels Image Gallery</a><br />
     </div>
 
     <div id="Contact" class="tabcontent">
@@ -47,6 +45,9 @@
     </div>
 
     <div class="bg"></div>
-  <img src="https://marleyhankin.files.wordpress.com/2018/12/website-header2-1-1024x576.png?w=1024" alt="portfoliopic">
+    <img
+      src="https://marleyhankin.files.wordpress.com/2018/12/website-header2-1-1024x576.png?w=1024"
+      alt="portfoliopic"
+    />
   </body>
 </html>
