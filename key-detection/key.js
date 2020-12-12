@@ -1,13 +1,18 @@
-//const pressed = [];
-//const secretCode = 'kevinj';
+const pressed = [];
+const secretCode = 'kevinj';
 
-window.addEventListener('keyup', () => {
-  console.log('keyup');
+window.addEventListener('keyup', (e) => {
+  console.log(e.key);
+  pressed.push(e.key);
+  pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
+
+  if(pressed.join('').includes(secretCode)){
+    console.log('secretCode')
+    cornify_add();
+  }
+  console.log(pressed)
 });
 
- // pressed.push(e.key);
-  //pressed.splice(-secretCode.length - 1, pressed.length - secretCode.length);
 
-  //if(pressed.join(''))
-  //console.log(pressed)
+
 

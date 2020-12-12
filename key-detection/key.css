@@ -1,0 +1,16 @@
+body {
+  background-color: seagreen;
+}
+
+h1 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: tomato;
+  border-style: double;
+  border-top-color: whitesmoke;
+  border-bottom-color: greenyellow;
+  border-left-color: blueviolet;
+  border-right-color: lightcoral;
+  text-align: center;
+  position: relative;
+  text-shadow: 2px 2px 5px red;
+}
