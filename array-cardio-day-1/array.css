@@ -1,0 +1,23 @@
+body{
+  background-color: skyblue;
+}
+
+p {
+  font-size: 3em;
+  color: orchid;
+}
+
+h3 {
+  font-size: 3em;
+  color: magenta;
+}
+
+ul {
+  font-size: 2em;
+  color: palevioletred;
+  text-shadow: 2px 2px 5px red;
+}
+
+.info {
+  text-align: center;
+}
