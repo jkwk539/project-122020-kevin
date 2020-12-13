@@ -92,8 +92,8 @@ body, html {
   text-align: center;
   cursor: pointer;
   position: absolute;
-  bottom: 425px;
-  right: 890px;
+  //bottom: 425px;
+  //right: 890px;
 }
 
 .hero-text span:hover {
