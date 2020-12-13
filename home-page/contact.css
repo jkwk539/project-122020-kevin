@@ -5,7 +5,7 @@
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
+  background-color: #126ba7;
   padding: 10px;
 }
 
@@ -22,6 +22,12 @@
   content: "";
   display: table;
   clear: both;
+}
+
+.contacts {
+  font-size: 2.5em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:aquamarine
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
