@@ -6,33 +6,36 @@
 .container {
   border-radius: 5px;
   background-color: #126ba7;
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
   padding: 10px;
 }
 
-/* Create two columns that float next to eachother */
-.column {
-  float: left;
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   width: 50%;
-  margin-top: 6px;
-  padding: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+  max-width: 100%;
+  height: auto;
 }
 
 .contacts {
   font-size: 2.5em;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  color:aquamarine
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: aquamarine;
+}
+
+.info {
+  text-align: center;
 }
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
-  .column, input[type=submit] {
+  .column,
+  input[type="submit"] {
     width: 100%;
     margin-top: 0;
   }
