@@ -1,12 +1,10 @@
 .header {
-  padding: 60px;
   text-align: center;
-  background: #02b17c;
-  color: rgba(9, 63, 240, 0.514);
   font-size: 30px;
 }
 
-div {
+.work {
+  color: aquamarine;
   font-family: cursive;
   font-size: 25px;
   text-align: center;
